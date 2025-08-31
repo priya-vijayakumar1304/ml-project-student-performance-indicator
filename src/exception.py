@@ -22,4 +22,4 @@ class CustomException(Exception):
         a=1/0
     except Exception as e:
         logging.info("Divided by zero")
-        print(raise CustomException(e,sys))'''
+        raise CustomException(e,sys)'''
